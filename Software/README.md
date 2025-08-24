@@ -59,11 +59,7 @@ After flashing the boards, close the Arduino IDE’s serial monitor and run the 
 ## Notes
 
 - Sampling frequency is set to **20 Hz** (`SAMPLE_HZ`).  
-- Plots auto-rescale but can be tuned (`HISTORY_SAMPLES`, `XTICK_SPACING_S`).  
-- Script assumes BMP180 sensors, but can be adapted to others.  
-- If serial errors occur:
-  - **Windows** → check COM ports in Device Manager  
-  - **Linux/Mac** → use `/dev/ttyUSB*`  
+- Plots auto-rescale but can be tuned (`HISTORY_SAMPLES`, `XTICK_SPACING_S`).
 
 ---
 
