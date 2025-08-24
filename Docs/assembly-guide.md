@@ -31,7 +31,7 @@ Instructions for assembling the **Skylon V1 desktop wind tunnel**.
 - **Check polarity before gluing**: magnets must attract, not repel.  
 - Once polarity is correct, secure with superglue.  
 
-⚠️ **Warning:** If glued incorrectly, parts cannot be salvaged; you will need to reprint.  
+**Warning:** If glued incorrectly, parts cannot be salvaged; you will need to reprint.  
 
 ---
 
