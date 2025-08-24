@@ -44,7 +44,7 @@ Procedures for verifying assembly, sensor operation, and visualization on the **
 
 - Place incense upstream.  
 - Turn on the **laser + prism** to form a sheet.  
-- Observe laminar vs turbulent flow patterns at the model.  
+- Observe flow patterns at the model.  
 
 ---
 
