@@ -1,4 +1,4 @@
-# Electronics — Firmware
+# Electronics - Firmware
 
 Contains Arduino sketches for the **Skylon V1** wind tunnel.
 
@@ -25,3 +25,4 @@ Each folder includes a sketch (`.ino`) that can be opened directly in the Arduin
 - Ensure correct **COM port** selection before flashing.  
 - Install the **Adafruit BMP085/BMP180 library** via Arduino IDE Library Manager.  
 - After uploading, close the Arduino IDE’s serial monitor before running the Python dashboard.  
+
