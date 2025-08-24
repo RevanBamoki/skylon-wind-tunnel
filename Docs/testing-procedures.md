@@ -48,16 +48,7 @@ Procedures for verifying assembly, sensor operation, and visualization on the **
 
 ---
 
-## 5. Basic Sanity Ranges (Informal)
-
-- ΔP should be **positive** when suction is on.  
-- U should **increase with motor voltage**.  
-- Re should **increase with U (monotonic trend)**.  
-- Absolute values may not be accurate at prototype stage.  
-
----
-
-## 6. Data Logging
+## 5. Data Logging
 
 - Enable logging by setting:  
   ```python
