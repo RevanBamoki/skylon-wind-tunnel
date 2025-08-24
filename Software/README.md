@@ -14,16 +14,6 @@ The Arduino sketches are included in [`Electronics/Firmware`](../Electronics).
 
 After flashing the boards, close the Arduino IDE’s serial monitor and run the Python program.
 
-The logger will:
-- Stream live data from both sensors via serial  
-- Compute derived flow quantities in real time:
-  - Pressure difference (ΔP)  
-  - Airflow velocity (U)  
-  - Energy loss per unit mass (E_loss)  
-  - Reynolds number (Re)  
-- Display four live plots  
-- Optionally log all data to a CSV file  
-
 ---
 
 ## Requirements
