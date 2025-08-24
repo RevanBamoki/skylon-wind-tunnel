@@ -60,12 +60,3 @@ After flashing the boards, close the Arduino IDE’s serial monitor and run the 
 
 - Sampling frequency is set to **20 Hz** (`SAMPLE_HZ`).  
 - Plots auto-rescale but can be tuned (`HISTORY_SAMPLES`, `XTICK_SPACING_S`).
-
----
-
-## Repository Navigation
-
-- [Electronics](../Electronics) → Arduino firmware  
-- [Software](../Software) → this Python dashboard/logger  
-- [Docs](../Docs) → Assembly guide & calibration notes
-
