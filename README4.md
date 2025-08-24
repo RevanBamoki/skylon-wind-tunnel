@@ -50,13 +50,9 @@ NANO_PORT  = "COM4"     # or /dev/ttyUSB1
 CSV_FILE   = "bmp_dual_log.csv"
 LOG_TO_CSV = True       # set False to disable logging
 
-4. Run the script:  
-
-```bash
-python bmp180_logger.py
-
-
-
+4. Run the script:
+    ```bash
+    python bmp180_logger.py
 
 Four plots will appear and update live. If enabled, data will also be saved to CSV.
 
