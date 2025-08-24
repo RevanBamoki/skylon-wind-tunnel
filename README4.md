@@ -32,55 +32,53 @@ The logger will:
 - **Pip packages**:  
   ```bash
   pip install pyserial matplotlib numpy
-Standard library modules (already included):
-csv, time, math, collections
+  ```
+- Standard library modules (already included):  
+  `csv`, `time`, `math`, `collections`
+
+---
 
 ## Usage
-Upload the Arduino sketches (Arduino_Uno and Arduino_Nano) to their boards.
 
-Close the Arduino IDE’s serial monitor.
+1. Upload the Arduino sketches (`Arduino_Uno` and `Arduino_Nano`) to their respective boards.  
+2. Close the Arduino IDE’s serial monitor so the ports are free.  
+3. Edit the top of `bmp180_logger.py` if needed:  
+   ```python
+   UNO_PORT   = "COM5"     # or /dev/ttyUSB0
+   NANO_PORT  = "COM4"     # or /dev/ttyUSB1
+   CSV_FILE   = "bmp_dual_log.csv"
+   LOG_TO_CSV = True       # set False to disable logging
+   ```
+4. Run the script:  
+   ```bash
+   python bmp180_logger.py
+   ```
+5. Four plots will appear and update live. If enabled, data will also be saved to CSV.  
 
-Edit the top of bmp180_logger.py if needed:
+---
 
-bash
-Copy
-Edit
-UNO_PORT   = "COM5"     # or /dev/ttyUSB0
-NANO_PORT  = "COM4"     # or /dev/ttyUSB1
-CSV_FILE   = "bmp_dual_log.csv"
-LOG_TO_CSV = True       # set False to disable logging
+## Example Output
 
-4. Run the script:
-    ```bash
-    python bmp180_logger.py
+- **Temperature plot**: T1 (Uno) vs T2 (Nano)  
+- **Pressure plot**: P1 vs P2  
+- **ΔP / U / E_loss plot**: flow dynamics  
+- **Reynolds number plot**: flow regime indicator  
 
-Four plots will appear and update live. If enabled, data will also be saved to CSV.
-
-Example Output
-Temperature plot: T1 (Uno) vs T2 (Nano)
-
-Pressure plot: P1 vs P2
-
-ΔP / U / E_loss plot: flow dynamics
-
-Reynolds number plot: flow regime indicator
+---
 
 ## Notes
-Sampling frequency is set to 20 Hz (SAMPLE_HZ).
 
-Plots auto-rescale but can be tuned (HISTORY_SAMPLES, XTICK_SPACING_S).
+- Sampling frequency is set to **20 Hz** (`SAMPLE_HZ`).  
+- Plots auto-rescale but can be tuned (`HISTORY_SAMPLES`, `XTICK_SPACING_S`).  
+- Script assumes BMP180 sensors, but can be adapted to others.  
+- If serial errors occur:
+  - **Windows** → check COM ports in Device Manager  
+  - **Linux/Mac** → use `/dev/ttyUSB*`  
 
-Script assumes BMP180 sensors, but can be adapted to others.
+---
 
-If serial errors occur:
+## Repository Navigation
 
-Windows → check COM ports in Device Manager
-
-Linux/Mac → use /dev/ttyUSB*
-
-Repository Navigation
-Electronics → Arduino firmware
-
-Software → this Python dashboard/logger
-
-Docs → Assembly guide & calibration notes
+- [Electronics](../Electronics) → Arduino firmware  
+- [Software](../Software) → this Python dashboard/logger  
+- [Docs](../Docs) → Assembly guide & calibration notes
