@@ -42,13 +42,14 @@ Close the Arduino IDE’s serial monitor.
 
 Edit the top of bmp180_logger.py if needed:
 
-## python
+bash
 Copy
 Edit
-UNO_PORT   = "COM5"     # Windows example, or /dev/ttyUSB0 on Linux/Mac
+UNO_PORT   = "COM5"     # or /dev/ttyUSB0
 NANO_PORT  = "COM4"     # or /dev/ttyUSB1
 CSV_FILE   = "bmp_dual_log.csv"
-LOG_TO_CSV = True       # set False to disable CSV logging
+LOG_TO_CSV = True       # set False to disable logging
+
 Run the script:
 
 bash
