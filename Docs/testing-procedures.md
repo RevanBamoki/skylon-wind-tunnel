@@ -1,4 +1,4 @@
-# Testing Procedures (Skylon V1 — Prototype)
+# Testing Procedures (Skylon V1 - Prototype)
 
 Procedures for verifying assembly, sensor operation, and visualization on the **Skylon V1 desktop wind tunnel**.
 
@@ -6,8 +6,6 @@ Procedures for verifying assembly, sensor operation, and visualization on the **
 
 ## 1. Leak & Fit Check
 
-- Tape off open tunnel ends.  
-- Gently pressurize by hand (or with a small fan).  
 - Feel for leaks around glue joints.  
 - Re-glue if any clear leaks are detected.  
 
