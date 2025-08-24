@@ -26,10 +26,13 @@ To build **Skylon V1**, print in roughly this order:
 - **Holders** (laser-holders, magnet-lid, incense-holder): **15% infill**  
 - **Fan turbine & motor shaft adapter:** **100% infill** for strength  
 - **Motor case:** **30% infill**
+- **Slicer Used:** PrusaSlicer
+- **3D Printer Used:** Prusa i3 MK3s+ and Creality Ender-3
 
 ---
 
 ## Assembly
 
 Assembly order is described in [`Docs/assembly-guide.md`](../Docs).
+
 
