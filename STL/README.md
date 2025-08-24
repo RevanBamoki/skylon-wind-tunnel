@@ -31,4 +31,5 @@ To build **Skylon V1**, print in roughly this order:
 
 ## Assembly
 
-Assembly order is described in [`Docs/assembly-guide.txt`](../Docs).
+Assembly order is described in [`Docs/assembly-guide.md`](../Docs).
+
