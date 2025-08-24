@@ -26,7 +26,7 @@ A compact, 3D-printed wind tunnel you can build for classrooms, hobby and univer
 
 ## Quick Start
 
-1. Print parts per **STL/README.md** (check magnet polarity note).  
+1. Print parts per **STL/README.md**.  
 2. Assemble per **Docs/assembly-guide.md**.  
 3. Flash **Electronics/Firmware/** to:  
    - Uno → pressure P1, temperature T1  
