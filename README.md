@@ -31,8 +31,9 @@ A compact, 3D-printed wind tunnel you can build for classrooms, clubs, or hobby 
 ---
 
 ## License & Disclaimer  
-📜 Licensed under the **MIT License**.  
-⚠️ **Prototype status:** results are for educational/demo purposes only.  
+Licensed under the **MIT License**.  
+**Prototype status:** results are for educational/demo purposes only.  
 
 ---
+
 
