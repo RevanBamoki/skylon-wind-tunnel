@@ -1,39 +1,34 @@
-# Skylon V1 — Open-Source Desktop Wind Tunnel  
+# STL Parts — Print Order
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)  
-![Python 3.8+](https://img.shields.io/badge/python-3.8%2B-blue.svg)  
-![Arduino IDE](https://img.shields.io/badge/Arduino-IDE-orange.svg)  
-![Status: Prototype](https://img.shields.io/badge/status-prototype-yellow.svg)  
+To build **Skylon V1**, print in roughly this order:
 
-A compact, 3D-printed wind tunnel you can build for classrooms, clubs, or hobby labs.  
-
----
-
-## Repository Structure
-- **STL/** – 3D-printable parts + print order & PLA settings  
-- **CAD/** – Fusion 360 source (`.f3z`) and STEP export  
-- **Electronics/** – Arduino firmware for dual BMP180 sensors (Uno + Nano)  
-- **Software/** – Python live dashboard + CSV logger  
-- **Docs/** – Assembly guide, testing procedures  
-- **BOM/** – Bill of Materials  
-
----
-
-## Quick Start
-1. Print parts per **STL/README.md** (check magnet polarity note).  
-2. Assemble per **Docs/assembly-guide.md**.  
-3. Flash **Electronics/Firmware/** to:  
-   - Uno → pressure P1, temperature T1  
-   - Nano → pressure P2, temperature T2  
-4. Run **Software/Python/bmp180_logger.py** (see its README for dependencies + COM port settings).  
-5. Visualize flow. Data are *indicative only* (prototype, uncalibrated).  
+1. `bellmouth-1.stl`  
+2. `bellmouth-2.stl`  
+3. `bellmouth-3.stl`  
+4. `test-section.stl`  
+5. `magnet-lid.stl`  
+6. `laser-holder-bottom.stl`  
+7. `laser-holder-top.stl`  
+8. `motor-case.stl`  
+9. `motor-shaft-adapter.stl`  
+10. `fan-turbine.stl`  
+11. `exit-diffuser.stl`  
+12. `tunnel-support-1.stl`  
+13. `tunnel-support-2.stl`  
+14. `incense-holder.stl`  
 
 ---
 
-## License & Disclaimer  
-Licensed under the **MIT License**.  
-**Prototype status:** results are for educational/demo purposes only.  
+## Printing Guidelines (PLA)
+
+- **General:** 0.2 mm layer height, 2 walls  
+- **Structural parts** (bellmouth, test-section, tunnel supports, exit diffuser): **10% infill**  
+- **Holders** (laser-holders, magnet-lid, incense-holder): **15% infill**  
+- **Fan turbine & motor shaft adapter:** **100% infill** for strength  
+- **Motor case:** **30% infill**, supports enabled  
 
 ---
 
+## Assembly
 
+Assembly order is described in [`Docs/assembly-guide.txt`](../Docs).
