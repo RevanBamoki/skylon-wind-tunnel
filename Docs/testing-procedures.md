@@ -36,7 +36,7 @@ Procedures for verifying assembly, sensor operation, and visualization on the **
   - U (airflow velocity)  
   - E_loss  
   - Re (Reynolds number)  
-- **Note:** Values are *indicative only* (prototype, uncalibrated).  
+- **Note:** Reynolds number values are *indicative only* (prototype, uncalibrated).  
 
 ---
 
