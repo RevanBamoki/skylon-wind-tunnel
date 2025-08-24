@@ -17,7 +17,7 @@ Instructions for assembling the **Skylon V1 desktop wind tunnel**.
 
 1. Print and prepare all STL parts (see [STL/README.md](../STL) for recommended print order).  
 2. Bond the tunnel parts in sequence:  
-   - **Bellmouth sections → Test section → Exit diffuser → Supports**  
+   - **Bellmouth sections → Test section → Exit diffuser → Tunnel Supports**  
 3. Ensure all joints are square and aligned to avoid air leakage.  
 
 ---
@@ -89,3 +89,4 @@ Instructions for assembling the **Skylon V1 desktop wind tunnel**.
   - Add **dedicated sensor mounts**  
   - Redesign the motor housing for easier serviceability  
 - Despite its limitations, this prototype is functional and capable of producing meaningful airflow visualization.  
+
