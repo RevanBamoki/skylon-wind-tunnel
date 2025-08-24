@@ -1,6 +1,9 @@
 [Uploading README.md…]()
 # Skylon V1 — Open-Source Desktop Wind Tunnel
 
+![TunnelPhoto](https://github.com/user-attachments/assets/503b3e37-8a9f-4ccd-8122-8aeb38351430)
+
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)  
 [![Python 3.8+](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/downloads/release/python-380/)  
 [![Arduino IDE](https://img.shields.io/badge/Arduino-IDE-orange.svg)](https://www.arduino.cc/en/software)  
