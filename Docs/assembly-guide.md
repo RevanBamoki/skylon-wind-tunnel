@@ -66,7 +66,7 @@ Instructions for assembling the **Skylon V1 desktop wind tunnel**.
 ## 7. Sensor Installation
 
 - Two **BMP180 pressure/temperature sensors** were mounted beneath the tunnel.
-- Slots for sensors were manually drilled into the bottom of the PLA (However, if you take dimensions and have holes in your design, it's way more convenient). 
+- Slots for sensors were manually drilled into the bottom of the PLA (However, if you take dimensions and incorporate holes in your design, it's way more convenient). 
   - Ensure enough clearance for the modules and their 4-wire connections.  
   - A **rectangular slot** is recommended.  
 - Sensors connect to Arduino boards as described in [Electronics/Firmware](../Electronics).  
@@ -89,4 +89,5 @@ Instructions for assembling the **Skylon V1 desktop wind tunnel**.
   - Add **dedicated sensor mounts**  
   - Redesign the motor housing for easier serviceability  
 - Despite its limitations, this prototype is functional and capable of producing meaningful airflow visualization.  
+
 
