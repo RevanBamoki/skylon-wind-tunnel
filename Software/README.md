@@ -54,9 +54,12 @@ After flashing the boards, close the Arduino IDE’s serial monitor and run the 
 - **ΔP / U / E_loss plot**: flow dynamics  
 - **Reynolds number plot**: flow regime indicator  
 
+![PythonExampleOutput](https://github.com/user-attachments/assets/e63583f7-71ea-4385-b57e-f01756a9d9e8)
+
 ---
 
 ## Notes
 
 - Sampling frequency is set to **20 Hz** (`SAMPLE_HZ`).  
+
 - Plots auto-rescale but can be tuned (`HISTORY_SAMPLES`, `XTICK_SPACING_S`).
