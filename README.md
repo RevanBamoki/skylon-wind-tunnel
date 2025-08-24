@@ -9,18 +9,18 @@
 [![Arduino IDE](https://img.shields.io/badge/Arduino-IDE-orange.svg)](https://www.arduino.cc/en/software)  
 [![Status: Prototype](https://img.shields.io/badge/status-prototype-yellow.svg)]()
 
-A compact, 3D-printed wind tunnel you can build for classrooms, and hobby and university labs.
+A compact, 3D-printed wind tunnel you can build for classrooms, hobby and university labs.
 
 ---
 
 ## Repository Structure
 
-- **STL/** — 3D-printable parts + print order & PLA settings  
-- **CAD/** — Fusion 360 source (`.f3z`) and STEP export  
-- **Electronics/** — Arduino firmware for dual BMP180 sensors (Uno + Nano)  
-- **Software/** — Python live dashboard & CSV logger  
-- **Docs/** — Assembly guide, testing procedures  
-- **BOM/** — Bill of Materials  
+- **STL/** - 3D-printable parts + print order & PLA settings  
+- **CAD/** - Fusion 360 source (`.f3z`) and STEP export  
+- **Electronics/** - Arduino firmware for dual BMP180 sensors (Uno + Nano)  
+- **Software/** - Python live dashboard & CSV logger  
+- **Docs/** - Assembly guide, testing procedures  
+- **BOM/** - Bill of Materials  
 
 ---
 
