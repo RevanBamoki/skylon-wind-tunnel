@@ -1,6 +1,6 @@
 # Software — Live Dashboard & Logger
 
-Python tools to visualize and log data from the dual-BMP180 sensor setup inside the **Skylon V1** wind tunnel.
+Python tools to visualize and log data from the dual-BMP180 sensor setup inside the wind tunnel.
 
 ---
 
@@ -82,3 +82,4 @@ The logger will:
 - [Electronics](../Electronics) → Arduino firmware  
 - [Software](../Software) → this Python dashboard/logger  
 - [Docs](../Docs) → Assembly guide & calibration notes
+
