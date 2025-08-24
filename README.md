@@ -18,8 +18,8 @@ A compact, 3D-printed wind tunnel you can build for classrooms, hobby and univer
 - **STL/** - 3D-printable parts + print order & PLA settings  
 - **CAD/** - Fusion 360 source (`.f3z`) and STEP export  
 - **Electronics/** - Arduino firmware for dual BMP180 sensors (Uno + Nano)  
-- **Software/** - Python live dashboard & CSV logger  
-- **Docs/** - Assembly guide, testing procedures  
+- **Software/** - Python live dashboard 
+- **Docs/** - Assembly guide, and testing procedures  
 - **BOM/** - Bill of Materials  
 
 ---
