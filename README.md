@@ -1,4 +1,3 @@
-[Uploading README.md…]()
 # Skylon V1: Open-Source Desktop Wind Tunnel
 
 ![TunnelPhoto](https://github.com/user-attachments/assets/503b3e37-8a9f-4ccd-8122-8aeb38351430)
