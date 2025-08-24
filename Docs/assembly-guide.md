@@ -42,7 +42,7 @@ Instructions for assembling the **Skylon V1 desktop wind tunnel**.
 - Attach the turbine to the motor shaft:  
   - In V1, a **custom 3D-printed adapter** was used to connect the motor shaft and turbine.  
   - Design your own adapter depending on your motor type.  
-- Wires exit through the diffuser section and connect to a **DC power supply** using crocodile clips.  
+- Wires with crocodile clips connect to the motor leads and exit through the diffuser section and connect to a **DC power supply**.  
 
 **Note:** A standalone DC motor with custom turbine was chosen instead of a PC fan, since suitable fans were more expensive and provided weaker suction.  
 
