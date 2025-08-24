@@ -31,7 +31,7 @@ A compact, 3D-printed wind tunnel you can build for classrooms, hobby and univer
 3. Flash **Electronics/Firmware/** to:  
    - Uno → pressure P1, temperature T1  
    - Nano → pressure P2, temperature T2  
-4. Per **Docs\testing-procedures.md**, Run **Software/Python/bmp180_logger.py** (see its README for dependencies). 
+4. Per the steps in **Docs\testing-procedures.md**, run **Software/Python/bmp180_logger.py** (see its README for dependencies). 
 5. Visualize flow. Data are *indicative only* (prototype, uncalibrated).  
 
 ---
