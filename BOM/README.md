@@ -16,4 +16,4 @@ List of required components for building **Skylon V1** wind tunnel.
 | Magnets                  | 8     | Slot shape, 19.7 mm length, 5.7 mm diameter, 5 mm thickness (for test section + lid) |
 | PLA filament             | ~1 kg | Any brand                                     |
 | Incense sticks           | -     | For smoke visualization                       |
-| 12V DC power supply      | 1     | Crocodile clips to motor leads                |
+| DC power supply      | 1     | Crocodile clips to motor leads                |
