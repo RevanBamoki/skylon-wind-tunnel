@@ -1,19 +1,19 @@
 ---
 name: Feature request
-description: Suggest an improvement or new feature for Skylon V1
+about: Suggest an improvement or new feature for Skylon V1
 title: "[FEATURE] "
-labels: ["enhancement"]
-assignees: []
+labels: enhancement
+assignees: ""
 ---
 
-### Describe the feature you'd like
-<!-- A clear description of the feature or change. -->
+## Describe the feature you'd like
+A clear description of the feature or change.
 
-### Why is this needed?
-<!-- The problem or gap this would solve. -->
+## Why is this needed?
+Explain the problem or gap this would solve.
 
-### Possible solutions
-<!-- Ideas for how this could be implemented. -->
+## Possible solutions
+Ideas for how this could be implemented.
 
-### Additional context
-<!-- Mockups, references, or examples. -->
+## Additional context
+Add mockups, references, or examples if you have any.
