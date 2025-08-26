@@ -1,0 +1,6 @@
+# Requirements for Skylon V1 wind tunnel dashboard & logger
+
+pyserial>=3.5,<4
+numpy>=1.22,<3
+matplotlib>=3.6,<4
+pandas>=1.5,<3
