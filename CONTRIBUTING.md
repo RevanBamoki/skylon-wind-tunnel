@@ -1,6 +1,6 @@
 # Contributing
 
-Thank you for your interest in contributing to **Skylon V1** 🚀  
+Thank you for your interest in contributing to **Skylon V1** 
 
 This is a collaborative, open-source project. To keep everything organized, please follow these steps when making changes.
 
@@ -32,4 +32,5 @@ If you spot a bug, error in documentation, or have suggestions, please [open an 
 
 ---
 
-💡 Tip: Check the **BOM** and **Docs** before submitting to avoid duplicating work.
+Tip: Check the **BOM** and **Docs** before submitting to avoid duplicating work.
+
