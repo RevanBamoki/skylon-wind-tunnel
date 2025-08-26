@@ -19,12 +19,18 @@ After flashing the boards, close the Arduino IDE’s serial monitor and run the 
 ## Requirements
 
 - **Python**: 3.8 or newer  
-- **Pip packages**:  
+- Install dependencies with:  
   ```bash
-  pip install pyserial matplotlib numpy
+  pip install -r requirements.txt
   ```
-- Standard library modules (already included):  
-  `csv`, `time`, `math`, `collections`
+- `requirements.txt` includes:
+  ```bash
+  pyserial
+  numpy
+  matplotlib
+  pandas
+
+  ```
 
 ---
 
@@ -63,3 +69,4 @@ After flashing the boards, close the Arduino IDE’s serial monitor and run the 
 - Sampling frequency is set to **20 Hz** (`SAMPLE_HZ`).  
 
 - Plots auto-rescale but can be tuned (`HISTORY_SAMPLES`, `XTICK_SPACING_S`).
+
